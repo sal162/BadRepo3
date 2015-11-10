@@ -66,7 +66,10 @@ public class JavaLife {
 			seed          = Integer.parseInt(args[1]);
 			percent       = Integer.parseInt(args[2]);
 			maxIterations = Integer.parseInt(args[3]);
-			if (size < 0 || seed < 0 || percent < 0 || maxIterations < 0) {
+			if (size < 0 ||
+			    seed < 0 ||
+			    percent < 0 ||
+			    maxIterations < 0) {
 				throw (new NumberFormatException());
 			}
 		} catch (NumberFormatException nfex) {
