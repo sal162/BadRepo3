@@ -76,6 +76,9 @@ public class JavaLife {
 			System.err.println(getNumFormatMessage());
 			System.exit(1);
 		}
+		
+		// Create new JavaLife program
+		
 		JavaLife jl = new JavaLife(size, seed, percent, maxIterations);
 	}
 
