@@ -2,8 +2,12 @@ package com.laboon;
 
 public class Cell {
 
+    // Default state is dead
+    
 	private State _state = State.DEAD;
-	
+
+    // Default locations are 0,0
+    
 	private int _xLoc = 0;
 	private int _yLoc = 0;
 	
