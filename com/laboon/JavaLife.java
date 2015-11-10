@@ -30,7 +30,8 @@ public class JavaLife {
 	 */
 	
 	private static String getErrMessage() {
-		return "Requires four args: <size> <seed> <percent> <max iterations>";
+	    // I like returning strings
+	    return "Requires four args: <size> <seed> <percent> <max iterations>";
 	}
 	
 	/**
