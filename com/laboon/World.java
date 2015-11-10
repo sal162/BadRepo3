@@ -56,7 +56,7 @@ public class World {
 	
 	private State generateInitialState(int percent) {
 		int livingChance = _rng.nextInt(100);
-		State toReturn = (livingChance < percent) ? State.ALIVE : State.DEAD;
+		State toReturn = (livingChance <= percent) ? State.ALIVE : State.DEAD;
 		return toReturn;
 	}
 	
